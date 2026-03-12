@@ -40,8 +40,8 @@ function dobro(numero) {
     let aux = numero * 2 //numero + numero
     console.log("O dobro é", aux)
 }
-// let numero = Number(prompt("Digite um número"))
-// dobro(numero)
+let numero = Number(prompt("Digite um número"))
+dobro(numero)
 
 /* Uma empresa solicitou um sistema de aumento para os funcionários, crie uma função que recebe um salário, se ele for menor que 2500, dê 500 reais de aumento e mostre o novo salário, senão, apenas mostre, "sem aumento" */
 function aumento(salario) {
