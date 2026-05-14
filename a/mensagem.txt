@@ -1,0 +1,1 @@
+Meu primeiro arquivo criado com Node.js!
