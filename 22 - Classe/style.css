@@ -1,0 +1,6 @@
+/* CSS */
+.troca { /*Essa classe não existe no HTML*/
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
