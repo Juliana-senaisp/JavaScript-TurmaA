@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Permite acentos e caracteres especiais -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site funcionar bem no celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Nome da aba do navegador -->
+    <title>Lista de Tarefas</title>
+
+    <!-- Conecta o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Título principal -->
+    <h1>Lista de Tarefas</h1>
+
+    <!-- Campo onde o usuário digita a tarefa -->
+    <input
+        type="text"
+        id="tarefa"
+        placeholder="Digite uma tarefa"
+    >
+
+    <!-- Botão para adicionar tarefa -->
+    <button onclick="adicionarTarefa()">
+        Adicionar
+    </button>
+
+    <!-- Lista onde as tarefas aparecerão -->
+    <ul id="lista"></ul>
+
+    <!-- Conecta o arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
