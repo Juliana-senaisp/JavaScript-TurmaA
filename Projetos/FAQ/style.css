@@ -1,0 +1,11 @@
+/* CSS */
+.pergunta {
+    background-color: gray;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.resposta {
+    background-color: lightgray;
+    display: none;
+}
